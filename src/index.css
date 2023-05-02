@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root,
+body,
+html {
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+div.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+img,
+ul,
+label,
+li,
+nav,
+p,
+small,
+span {
+  margin: 0;
+  padding:0;
+  border:0;
+  outline:none;
+  font-size:100%;
+  vertical-align: baseline;
+  background:transparent;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+@-webkit-keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
